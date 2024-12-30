@@ -1,8 +1,9 @@
+import Header from "./Header"
 
 const SharedLayout = () => {
   return (
-    <div>
-      
+    <div className="text-roboto">
+      <Header />
     </div>
   )
 }

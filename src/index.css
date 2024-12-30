@@ -26,6 +26,10 @@
   font-style: normal;
 }
 
+.text-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
 button {
   border: none;
   background: none;
@@ -33,6 +37,16 @@ button {
   font: inherit;
   cursor: pointer;
   outline: none;
+}
+
+input[type='submit'],
+button {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input:-webkit-autofill {
+  background-color: #262626 !important;
 }
 
 input[type='checkbox'] {
@@ -46,7 +60,8 @@ input {
   box-sizing: border-box; /* Ensures padding and border are included in width/height */
 }
 
-ul, li {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
